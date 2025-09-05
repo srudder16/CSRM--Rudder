@@ -1,0 +1,9 @@
+The CSRM metamodel is a .mdzip project that describes the CSRM specification using UML classes. 
+
+The metamodel is composed of a data model and a process model. 
+
+The data model contains CSRM-specific model elements that describe things, such as a Mission.
+
+The process model contains CSRM-specific relationships such as Validation.
+
+The intent of the metamodel is to provide a greater understanding of the CSRM model elements and the allowable relationships between them.
