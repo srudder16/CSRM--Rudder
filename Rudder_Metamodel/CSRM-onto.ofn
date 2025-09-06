@@ -1,0 +1,269 @@
+Prefix(:=<http://www.semanticweb.org/sarahrudder/ontologies/2025/8/untitled-ontology-36/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/sarahrudder/ontologies/2025/8/untitled-ontology-36>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_043b9706_8572_4dfe_889b_6bc030c8100f>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_08ac0a10_28db_45f7_8a9e_df6f7c50bd72>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_131411e2_f029_48d9_8a0e_079368a6d40f>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_2649fa72_ff81_45ab_9e19_3df9ce5cc209>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_27070d08_bd7d_4450_afb9_7f113b023424>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_30035405_f8e3_47a7_8a73_ea6a4fb9f075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_32381f07_41a0_4320_8c95_eef259993d12>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_33991e2b_30da_4be7_adef_d2a9296d4381>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_4dfde62b_62fb_41cf_bf61_aa94ad49bc9a>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_53b21ed1_61f4_4e56_8b2f_ccb7a646923e>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_58651f0b_ce0c_4716_a8d3_47e7d84085ea>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_58c67e9b_2a2a_4abf_99a7_df8d69f80866>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_7d8074c2_988c_4bc5_9086_c8710eea6b60>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_812f60d7_a3ac_4872_810d_18abfae3a2d8>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_8e67ca17_1af2_4ad0_8631_adc4220df5b9>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_9299ca9c_7790_469a_b671_c3c137225f68>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_98f6b6e0_0398_4b88_9f0d_2a68367e2b1f>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_9b6a1cfe_b862_4109_ba7c_82d3188df847>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_a6a4b23f_8af8_4c0f_a33e_26f636b9baee>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_ab8161cd_1e13_4cc8_b5d1_e79a8980ab01>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_b559a426_88c7_4f4e_9db6_57bef4f78aaf>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_b626c254_edb7_40db_ab2f_3611babe0833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_bc259ee7_0dcf_4949_9017_831409287977>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_bef09387_a48c_4bab_9c25_965755b7c89f>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_c5877ad8_0665_4b6d_95f4_d8cee044b672>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_c7795b98_4173_4ed4_a6c1_95db62ea7182>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_cc000824_565f_4348_8268_be9f84f4a9aa>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_dbcd5ed7_8c4b_4f59_b695_6671c74c9ec3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_eba1f36d_507c_4ec8_b6ac_42c3861f36a3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_043b9706_8572_4dfe_889b_6bc030c8100f> (Subsystem)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_043b9706_8572_4dfe_889b_6bc030c8100f> "Subsystem"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_08ac0a10_28db_45f7_8a9e_df6f7c50bd72> (mopRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_08ac0a10_28db_45f7_8a9e_df6f7c50bd72> "mopRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3> (SpaceSegmentRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3> "SpaceSegmentRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d> (Spacecraft)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d> "Spacecraft"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_131411e2_f029_48d9_8a0e_079368a6d40f> (Facility)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_131411e2_f029_48d9_8a0e_079368a6d40f> "Facility"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c> (MissionRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c> "MissionRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_2649fa72_ff81_45ab_9e19_3df9ce5cc209> (Mission)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_2649fa72_ff81_45ab_9e19_3df9ce5cc209> "Mission"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_27070d08_bd7d_4450_afb9_7f113b023424> (MissionConstraint)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_27070d08_bd7d_4450_afb9_7f113b023424> "MissionConstraint"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_30035405_f8e3_47a7_8a73_ea6a4fb9f075> (ValidationActivity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_30035405_f8e3_47a7_8a73_ea6a4fb9f075> "ValidationActivity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_32381f07_41a0_4320_8c95_eef259993d12> (MoE)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_32381f07_41a0_4320_8c95_eef259993d12> "MoE"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_33991e2b_30da_4be7_adef_d2a9296d4381> (Equipment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_33991e2b_30da_4be7_adef_d2a9296d4381> "Equipment"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9> (Satellite)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9> "Satellite"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_4dfde62b_62fb_41cf_bf61_aa94ad49bc9a> (CubeSat)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_4dfde62b_62fb_41cf_bf61_aa94ad49bc9a> "CubeSat"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a> (tpmSpecification)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a> "tpmSpecification"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_53b21ed1_61f4_4e56_8b2f_ccb7a646923e> (TPM)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_53b21ed1_61f4_4e56_8b2f_ccb7a646923e> "TPM"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_58651f0b_ce0c_4716_a8d3_47e7d84085ea> (DeployerRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_58651f0b_ce0c_4716_a8d3_47e7d84085ea> "DeployerRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49> (Segment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49> "Segment"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_58c67e9b_2a2a_4abf_99a7_df8d69f80866> (SpacecraftRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_58c67e9b_2a2a_4abf_99a7_df8d69f80866> "SpacecraftRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d> (CubeSatRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d> "CubeSatRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311> (StakeholderConcern)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311> "StakeholderConcern"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e> (ExtRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e> "ExtRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_7d8074c2_988c_4bc5_9086_c8710eea6b60> (Component)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_7d8074c2_988c_4bc5_9086_c8710eea6b60> "Component"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_812f60d7_a3ac_4872_810d_18abfae3a2d8> (System)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_812f60d7_a3ac_4872_810d_18abfae3a2d8> "System"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e> (MissionObjective)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e> "MissionObjective"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2> (GroundSegment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2> "GroundSegment"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4> (SegmentRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4> "SegmentRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_8e67ca17_1af2_4ad0_8631_adc4220df5b9> (Explanation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_8e67ca17_1af2_4ad0_8631_adc4220df5b9> "Explanation"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_9299ca9c_7790_469a_b671_c3c137225f68> (Stakeholder)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_9299ca9c_7790_469a_b671_c3c137225f68> "Stakeholder"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_98f6b6e0_0398_4b88_9f0d_2a68367e2b1f> (SubsystemRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_98f6b6e0_0398_4b88_9f0d_2a68367e2b1f> "SubsystemRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_9b6a1cfe_b862_4109_ba7c_82d3188df847> (Group)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_9b6a1cfe_b862_4109_ba7c_82d3188df847> "Group"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e> (MeasurementSpecification)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e> "MeasurementSpecification"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_a6a4b23f_8af8_4c0f_a33e_26f636b9baee> (ComponentRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_a6a4b23f_8af8_4c0f_a33e_26f636b9baee> "ComponentRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_ab8161cd_1e13_4cc8_b5d1_e79a8980ab01> (tpmRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_ab8161cd_1e13_4cc8_b5d1_e79a8980ab01> "tpmRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa> (moeSpecification)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa> "moeSpecification"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_b559a426_88c7_4f4e_9db6_57bef4f78aaf> (VerificationActivity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_b559a426_88c7_4f4e_9db6_57bef4f78aaf> "VerificationActivity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_b626c254_edb7_40db_ab2f_3611babe0833> (MoP)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_b626c254_edb7_40db_ab2f_3611babe0833> "MoP"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80> (SpaceSegment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80> "SpaceSegment"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_bc259ee7_0dcf_4949_9017_831409287977> (KPP)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_bc259ee7_0dcf_4949_9017_831409287977> "KPP"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0> (performanceRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0> "performanceRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_bef09387_a48c_4bab_9c25_965755b7c89f> (Domain)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_bef09387_a48c_4bab_9c25_965755b7c89f> "Domain"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_c5877ad8_0665_4b6d_95f4_d8cee044b672> (HowTo)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_c5877ad8_0665_4b6d_95f4_d8cee044b672> "HowTo"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_c7795b98_4173_4ed4_a6c1_95db62ea7182> (CubeSatDeployer)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_c7795b98_4173_4ed4_a6c1_95db62ea7182> "CubeSatDeployer"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38> (kppSpecification)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38> "kppSpecification"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_cc000824_565f_4348_8268_be9f84f4a9aa> (SystemContext)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_cc000824_565f_4348_8268_be9f84f4a9aa> "SystemContext"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf> (SatelliteRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf> "SatelliteRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_dbcd5ed7_8c4b_4f59_b695_6671c74c9ec3> (moeRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_dbcd5ed7_8c4b_4f59_b695_6671c74c9ec3> "moeRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9> (mopSpecification)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9> "mopSpecification"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8> (MissionNeed)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8> "MissionNeed"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_eba1f36d_507c_4ec8_b6ac_42c3861f36a3> (GroundSegmentRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_eba1f36d_507c_4ec8_b6ac_42c3861f36a3> "GroundSegmentRequirement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331> (kppRequirement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331> "kppRequirement"@en)
+
+
+DisjointClasses(<http://purl.obolibrary.org/obo/MONDO_043b9706_8572_4dfe_889b_6bc030c8100f> <http://purl.obolibrary.org/obo/MONDO_08ac0a10_28db_45f7_8a9e_df6f7c50bd72> <http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3> <http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d> <http://purl.obolibrary.org/obo/MONDO_131411e2_f029_48d9_8a0e_079368a6d40f> <http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c> <http://purl.obolibrary.org/obo/MONDO_2649fa72_ff81_45ab_9e19_3df9ce5cc209> <http://purl.obolibrary.org/obo/MONDO_27070d08_bd7d_4450_afb9_7f113b023424> <http://purl.obolibrary.org/obo/MONDO_30035405_f8e3_47a7_8a73_ea6a4fb9f075> <http://purl.obolibrary.org/obo/MONDO_32381f07_41a0_4320_8c95_eef259993d12> <http://purl.obolibrary.org/obo/MONDO_33991e2b_30da_4be7_adef_d2a9296d4381> <http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9> <http://purl.obolibrary.org/obo/MONDO_4dfde62b_62fb_41cf_bf61_aa94ad49bc9a> <http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a> <http://purl.obolibrary.org/obo/MONDO_53b21ed1_61f4_4e56_8b2f_ccb7a646923e> <http://purl.obolibrary.org/obo/MONDO_58651f0b_ce0c_4716_a8d3_47e7d84085ea> <http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49> <http://purl.obolibrary.org/obo/MONDO_58c67e9b_2a2a_4abf_99a7_df8d69f80866> <http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d> <http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311> <http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e> <http://purl.obolibrary.org/obo/MONDO_7d8074c2_988c_4bc5_9086_c8710eea6b60> <http://purl.obolibrary.org/obo/MONDO_812f60d7_a3ac_4872_810d_18abfae3a2d8> <http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e> <http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2> <http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4> <http://purl.obolibrary.org/obo/MONDO_8e67ca17_1af2_4ad0_8631_adc4220df5b9> <http://purl.obolibrary.org/obo/MONDO_9299ca9c_7790_469a_b671_c3c137225f68> <http://purl.obolibrary.org/obo/MONDO_98f6b6e0_0398_4b88_9f0d_2a68367e2b1f> <http://purl.obolibrary.org/obo/MONDO_9b6a1cfe_b862_4109_ba7c_82d3188df847> <http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e> <http://purl.obolibrary.org/obo/MONDO_a6a4b23f_8af8_4c0f_a33e_26f636b9baee> <http://purl.obolibrary.org/obo/MONDO_ab8161cd_1e13_4cc8_b5d1_e79a8980ab01> <http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa> <http://purl.obolibrary.org/obo/MONDO_b559a426_88c7_4f4e_9db6_57bef4f78aaf> <http://purl.obolibrary.org/obo/MONDO_b626c254_edb7_40db_ab2f_3611babe0833> <http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80> <http://purl.obolibrary.org/obo/MONDO_bc259ee7_0dcf_4949_9017_831409287977> <http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0> <http://purl.obolibrary.org/obo/MONDO_bef09387_a48c_4bab_9c25_965755b7c89f> <http://purl.obolibrary.org/obo/MONDO_c5877ad8_0665_4b6d_95f4_d8cee044b672> <http://purl.obolibrary.org/obo/MONDO_c7795b98_4173_4ed4_a6c1_95db62ea7182> <http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38> <http://purl.obolibrary.org/obo/MONDO_cc000824_565f_4348_8268_be9f84f4a9aa> <http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf> <http://purl.obolibrary.org/obo/MONDO_dbcd5ed7_8c4b_4f59_b695_6671c74c9ec3> <http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9> <http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8> <http://purl.obolibrary.org/obo/MONDO_eba1f36d_507c_4ec8_b6ac_42c3861f36a3> <http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331>)
+)
