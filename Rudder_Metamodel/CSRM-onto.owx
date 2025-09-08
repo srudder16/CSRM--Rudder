@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/sarahrudder/ontologies/2025/8/untitled-ontology-36"
+     xml:base="http://www.semanticweb.org/sarahrudder/ontologies/2025/8/CSRM_Ontology"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/sarahrudder/ontologies/2025/8/untitled-ontology-36">
-    <Prefix name="" IRI="http://www.semanticweb.org/sarahrudder/ontologies/2025/8/untitled-ontology-36/"/>
+     ontologyIRI="http://www.semanticweb.org/sarahrudder/ontologies/2025/8/CSRM_Ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/sarahrudder/ontologies/2025/8/CSRM_Ontology/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -162,58 +162,816 @@
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331"/>
     </Declaration>
-    <DisjointClasses>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_23b331e0_ae35_48de_b311_1368e321727b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_3803c2bf_0131_4f97_bb0b_57f67007b5ad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_3982c2cd_8129_4bf4_9b4e_170c88791ec0"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_74349aa9_2153_4ce0_b30d_568a715157b2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7d2b3656_78f4_43af_bbe8_356231b86d85"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_82c934c3_cf92_48e3_a43f_a1635deecbb9"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_9eed4da7_2242_4301_9774_f97db27703c0"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a130ee34_7e5a_4b50_b800_c44d3c21c5ac"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a48a269d_9452_4d73_8bfc_d692debba303"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a65a8681_bbc7_4760_bfcf_8ec0399c2ff2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_b590fb33_e69a_4124_8623_bfed89e5f879"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_dc3438db_95d4_43af_9bfe_e51d1dedf01c"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_e1e119b1_6ff7_4c63_8662_ee441feb2544"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_e8dc4ebd_b3fc_4990_b16c_09f78bc72b12"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_f58511fe_6fe7_49c7_a250_af61932fc21c"/>
+    </Declaration>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_043b9706_8572_4dfe_889b_6bc030c8100f"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_98f6b6e0_0398_4b88_9f0d_2a68367e2b1f"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_08ac0a10_28db_45f7_8a9e_df6f7c50bd72"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_08ac0a10_28db_45f7_8a9e_df6f7c50bd72"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_b626c254_edb7_40db_ab2f_3611babe0833"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_131411e2_f029_48d9_8a0e_079368a6d40f"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_812f60d7_a3ac_4872_810d_18abfae3a2d8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_58c67e9b_2a2a_4abf_99a7_df8d69f80866"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_eba1f36d_507c_4ec8_b6ac_42c3861f36a3"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_2649fa72_ff81_45ab_9e19_3df9ce5cc209"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_2649fa72_ff81_45ab_9e19_3df9ce5cc209"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_27070d08_bd7d_4450_afb9_7f113b023424"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_27070d08_bd7d_4450_afb9_7f113b023424"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_32381f07_41a0_4320_8c95_eef259993d12"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_30035405_f8e3_47a7_8a73_ea6a4fb9f075"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_23b331e0_ae35_48de_b311_1368e321727b"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_23b331e0_ae35_48de_b311_1368e321727b"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_32381f07_41a0_4320_8c95_eef259993d12"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_33991e2b_30da_4be7_adef_d2a9296d4381"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_dbcd5ed7_8c4b_4f59_b695_6671c74c9ec3"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_4dfde62b_62fb_41cf_bf61_aa94ad49bc9a"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_9eed4da7_2242_4301_9774_f97db27703c0"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_c7795b98_4173_4ed4_a6c1_95db62ea7182"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_ab8161cd_1e13_4cc8_b5d1_e79a8980ab01"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_53b21ed1_61f4_4e56_8b2f_ccb7a646923e"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_ab8161cd_1e13_4cc8_b5d1_e79a8980ab01"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_58651f0b_ce0c_4716_a8d3_47e7d84085ea"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_58651f0b_ce0c_4716_a8d3_47e7d84085ea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_c7795b98_4173_4ed4_a6c1_95db62ea7182"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_cc000824_565f_4348_8268_be9f84f4a9aa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_58c67e9b_2a2a_4abf_99a7_df8d69f80866"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_58c67e9b_2a2a_4abf_99a7_df8d69f80866"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_4dfde62b_62fb_41cf_bf61_aa94ad49bc9a"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311"/>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_74349aa9_2153_4ce0_b30d_568a715157b2"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_9299ca9c_7790_469a_b671_c3c137225f68"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a65a8681_bbc7_4760_bfcf_8ec0399c2ff2"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_9b6a1cfe_b862_4109_ba7c_82d3188df847"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_dc3438db_95d4_43af_9bfe_e51d1dedf01c"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_30035405_f8e3_47a7_8a73_ea6a4fb9f075"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_e8dc4ebd_b3fc_4990_b16c_09f78bc72b12"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_b559a426_88c7_4f4e_9db6_57bef4f78aaf"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_f58511fe_6fe7_49c7_a250_af61932fc21c"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_7d8074c2_988c_4bc5_9086_c8710eea6b60"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_812f60d7_a3ac_4872_810d_18abfae3a2d8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_a6a4b23f_8af8_4c0f_a33e_26f636b9baee"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7d2b3656_78f4_43af_bbe8_356231b86d85"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a130ee34_7e5a_4b50_b800_c44d3c21c5ac"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_eba1f36d_507c_4ec8_b6ac_42c3861f36a3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_8e67ca17_1af2_4ad0_8631_adc4220df5b9"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_9299ca9c_7790_469a_b671_c3c137225f68"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_e1e119b1_6ff7_4c63_8662_ee441feb2544"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_98f6b6e0_0398_4b88_9f0d_2a68367e2b1f"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_98f6b6e0_0398_4b88_9f0d_2a68367e2b1f"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_043b9706_8572_4dfe_889b_6bc030c8100f"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_9b6a1cfe_b862_4109_ba7c_82d3188df847"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_9b6a1cfe_b862_4109_ba7c_82d3188df847"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_3982c2cd_8129_4bf4_9b4e_170c88791ec0"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_dc3438db_95d4_43af_9bfe_e51d1dedf01c"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_30035405_f8e3_47a7_8a73_ea6a4fb9f075"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_a6a4b23f_8af8_4c0f_a33e_26f636b9baee"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_7d8074c2_988c_4bc5_9086_c8710eea6b60"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_ab8161cd_1e13_4cc8_b5d1_e79a8980ab01"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_b559a426_88c7_4f4e_9db6_57bef4f78aaf"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_b626c254_edb7_40db_ab2f_3611babe0833"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc259ee7_0dcf_4949_9017_831409287977"/>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_bef09387_a48c_4bab_9c25_965755b7c89f"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_c5877ad8_0665_4b6d_95f4_d8cee044b672"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_ab8161cd_1e13_4cc8_b5d1_e79a8980ab01"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_53b21ed1_61f4_4e56_8b2f_ccb7a646923e"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_32381f07_41a0_4320_8c95_eef259993d12"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_b559a426_88c7_4f4e_9db6_57bef4f78aaf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_82c934c3_cf92_48e3_a43f_a1635deecbb9"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_b626c254_edb7_40db_ab2f_3611babe0833"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_08ac0a10_28db_45f7_8a9e_df6f7c50bd72"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_58815114_16f4_4cbb_b1b0_2bc8d79add49"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_b68a7981_5996_4c5d_bf95_d1cd4f18ee80"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_3803c2bf_0131_4f97_bb0b_57f67007b5ad"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a130ee34_7e5a_4b50_b800_c44d3c21c5ac"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc259ee7_0dcf_4949_9017_831409287977"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_710d3e4d_aa21_4c62_99eb_179dbdf45b8e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_27070d08_bd7d_4450_afb9_7f113b023424"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_c7795b98_4173_4ed4_a6c1_95db62ea7182"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_812f60d7_a3ac_4872_810d_18abfae3a2d8"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_58651f0b_ce0c_4716_a8d3_47e7d84085ea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38"/>
-        <Class IRI="http://purl.obolibrary.org/obo/MONDO_cc000824_565f_4348_8268_be9f84f4a9aa"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+            <Class IRI="http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_58c67e9b_2a2a_4abf_99a7_df8d69f80866"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_d833633f_40a8_4e72_98e2_041d6ce9a4cf"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_0fba6e9f_6bf9_46d9_8e33_0a9758c07ee3"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_372fc34b_ca30_4391_b625_eeb3b54f37f9"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_dbcd5ed7_8c4b_4f59_b695_6671c74c9ec3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_08ac0a10_28db_45f7_8a9e_df6f7c50bd72"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_b590fb33_e69a_4124_8623_bfed89e5f879"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_27070d08_bd7d_4450_afb9_7f113b023424"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_ad55f119_7b9b_44dc_85d6_f8d5040f64fa"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_2649fa72_ff81_45ab_9e19_3df9ce5cc209"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_eba1f36d_507c_4ec8_b6ac_42c3861f36a3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_89e7d787_ae1d_4588_9b16_71e123f6bce4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_eba1f36d_507c_4ec8_b6ac_42c3861f36a3"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_88b64882_9026_4254_9318_9670ece5b9a2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331"/>
-    </DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_bc8e0796_bc21_41e8_918b_eec78c1d2eb0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+                <Class IRI="http://purl.obolibrary.org/obo/MONDO_c9ba59cd_3544_4edf_983e_e1bb2cd55f38"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_23b331e0_ae35_48de_b311_1368e321727b"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_3803c2bf_0131_4f97_bb0b_57f67007b5ad"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_3982c2cd_8129_4bf4_9b4e_170c88791ec0"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_74349aa9_2153_4ce0_b30d_568a715157b2"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7d2b3656_78f4_43af_bbe8_356231b86d85"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_82c934c3_cf92_48e3_a43f_a1635deecbb9"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_9eed4da7_2242_4301_9774_f97db27703c0"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a130ee34_7e5a_4b50_b800_c44d3c21c5ac"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a48a269d_9452_4d73_8bfc_d692debba303"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a65a8681_bbc7_4760_bfcf_8ec0399c2ff2"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_b590fb33_e69a_4124_8623_bfed89e5f879"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_dc3438db_95d4_43af_9bfe_e51d1dedf01c"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_e1e119b1_6ff7_4c63_8662_ee441feb2544"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_e8dc4ebd_b3fc_4990_b16c_09f78bc72b12"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_f58511fe_6fe7_49c7_a250_af61932fc21c"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_23b331e0_ae35_48de_b311_1368e321727b"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_dc3438db_95d4_43af_9bfe_e51d1dedf01c"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_3803c2bf_0131_4f97_bb0b_57f67007b5ad"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7d2b3656_78f4_43af_bbe8_356231b86d85"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_3982c2cd_8129_4bf4_9b4e_170c88791ec0"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a65a8681_bbc7_4760_bfcf_8ec0399c2ff2"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_74349aa9_2153_4ce0_b30d_568a715157b2"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_e1e119b1_6ff7_4c63_8662_ee441feb2544"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_82c934c3_cf92_48e3_a43f_a1635deecbb9"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_e8dc4ebd_b3fc_4990_b16c_09f78bc72b12"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_9eed4da7_2242_4301_9774_f97db27703c0"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a48a269d_9452_4d73_8bfc_d692debba303"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a130ee34_7e5a_4b50_b800_c44d3c21c5ac"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_a130ee34_7e5a_4b50_b800_c44d3c21c5ac"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_b590fb33_e69a_4124_8623_bfed89e5f879"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_f58511fe_6fe7_49c7_a250_af61932fc21c"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f"/>
+    </InverseObjectProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_043b9706_8572_4dfe_889b_6bc030c8100f</IRI>
@@ -243,6 +1001,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c</IRI>
         <Literal xml:lang="en">MissionRequirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_23b331e0_ae35_48de_b311_1368e321727b</IRI>
+        <Literal xml:lang="en">validates</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -276,6 +1039,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_3803c2bf_0131_4f97_bb0b_57f67007b5ad</IRI>
+        <Literal xml:lang="en">controlledBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_3982c2cd_8129_4bf4_9b4e_170c88791ec0</IRI>
+        <Literal xml:lang="en">owns</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_4dfde62b_62fb_41cf_bf61_aa94ad49bc9a</IRI>
         <Literal xml:lang="en">CubeSat</Literal>
     </AnnotationAssertion>
@@ -283,6 +1056,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_4ec15c65_967b_4346_9b0c_9b10e1a4103a</IRI>
         <Literal xml:lang="en">tpmSpecification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_514a7308_01b1_429a_89f5_d1e9efa42f50</IRI>
+        <Literal xml:lang="en">derivedFrom</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -321,6 +1099,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_74349aa9_2153_4ce0_b30d_568a715157b2</IRI>
+        <Literal xml:lang="en">concernOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_7af2b8f3_06b7_42a4_9e81_c7ed0a5ae396</IRI>
+        <Literal xml:lang="en">derivedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_7d2b3656_78f4_43af_bbe8_356231b86d85</IRI>
+        <Literal xml:lang="en">controls</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_7d8074c2_988c_4bc5_9086_c8710eea6b60</IRI>
         <Literal xml:lang="en">Component</Literal>
     </AnnotationAssertion>
@@ -333,6 +1126,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_82a013b7_fd36_46ed_9f0c_a6a903c8782e</IRI>
         <Literal xml:lang="en">MissionObjective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_82c934c3_cf92_48e3_a43f_a1635deecbb9</IRI>
+        <Literal xml:lang="en">verifies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_86b89fe8_8b8a_41e7_9def_4f95438539db</IRI>
+        <Literal xml:lang="en">satisfies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -366,8 +1169,28 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_9eed4da7_2242_4301_9774_f97db27703c0</IRI>
+        <Literal xml:lang="en">deployedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_a130ee34_7e5a_4b50_b800_c44d3c21c5ac</IRI>
+        <Literal xml:lang="en">communicatesWith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_a34eb4df_cb5d_4bb3_af10_9878a64a9b5e</IRI>
         <Literal xml:lang="en">MeasurementSpecification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_a48a269d_9452_4d73_8bfc_d692debba303</IRI>
+        <Literal xml:lang="en">deploys</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_a65a8681_bbc7_4760_bfcf_8ec0399c2ff2</IRI>
+        <Literal xml:lang="en">ownedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -388,6 +1211,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_b559a426_88c7_4f4e_9db6_57bef4f78aaf</IRI>
         <Literal xml:lang="en">VerificationActivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_b590fb33_e69a_4124_8623_bfed89e5f879</IRI>
+        <Literal xml:lang="en">limitedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -413,6 +1241,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_bef09387_a48c_4bab_9c25_965755b7c89f</IRI>
         <Literal xml:lang="en">Domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_bf7fc18b_499f_422f_afec_e1cae89e2e5f</IRI>
+        <Literal xml:lang="en">refinedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -446,6 +1279,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_dc3438db_95d4_43af_9bfe_e51d1dedf01c</IRI>
+        <Literal xml:lang="en">validatedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_ddd9dfc0_2cfd_4fb9_995b_14b3e7eaa96f</IRI>
+        <Literal xml:lang="en">refines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_e1e119b1_6ff7_4c63_8662_ee441feb2544</IRI>
+        <Literal xml:lang="en">concernedWith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_e3491849_cb2e_43fb_b092_f444d9896fd9</IRI>
         <Literal xml:lang="en">mopSpecification</Literal>
     </AnnotationAssertion>
@@ -453,6 +1301,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_e6aa6fc0_a814_42a1_afa8_e4e5573897b8</IRI>
         <Literal xml:lang="en">MissionNeed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_e8dc4ebd_b3fc_4990_b16c_09f78bc72b12</IRI>
+        <Literal xml:lang="en">verifiedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_eb00daeb_0822_46e5_a69c_391f7b376265</IRI>
+        <Literal xml:lang="en">satisfiedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -464,9 +1322,14 @@
         <IRI>http://purl.obolibrary.org/obo/MONDO_f4e0b4c0_5fe9_420c_b839_aa41a9ce6331</IRI>
         <Literal xml:lang="en">kppRequirement</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_f58511fe_6fe7_49c7_a250_af61932fc21c</IRI>
+        <Literal xml:lang="en">limits</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
