@@ -25,10 +25,16 @@
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_10be47ab_e2e5_4fcc_9846_508e23adf19d"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_11a3ae89_b71a_4ce6_81bd_c947b3dcd295"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_131411e2_f029_48d9_8a0e_079368a6d40f"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_213c98f7_13dd_428a_9484_e04cff8e5abb"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_2649fa72_ff81_45ab_9e19_3df9ce5cc209"/>
@@ -68,6 +74,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_68ac853b_c34c_44f5_b88f_7d7cde950efa"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/MONDO_6ef115a8_e129_41e9_be74_bd2372740311"/>
@@ -994,6 +1003,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_11a3ae89_b71a_4ce6_81bd_c947b3dcd295</IRI>
+        <Literal xml:lang="en">ConcernOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_131411e2_f029_48d9_8a0e_079368a6d40f</IRI>
         <Literal xml:lang="en">Facility</Literal>
     </AnnotationAssertion>
@@ -1001,6 +1015,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_1687252f_15a9_44bb_9dfd_396dcd3d538c</IRI>
         <Literal xml:lang="en">MissionRequirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_213c98f7_13dd_428a_9484_e04cff8e5abb</IRI>
+        <Literal xml:lang="en">Validation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1086,6 +1105,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MONDO_6648ac10_78e2_412e_af8e_51814a6aba9d</IRI>
         <Literal xml:lang="en">CubeSatRequirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_68ac853b_c34c_44f5_b88f_7d7cde950efa</IRI>
+        <Literal xml:lang="en">Verification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
